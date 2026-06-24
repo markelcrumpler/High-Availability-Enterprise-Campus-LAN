@@ -1,5 +1,4 @@
-High Availability Enterprise Campus LAN
-
+High Availability Enterprise Campus LAN: 
 Markel Crumpler
 
 **Objective:**
