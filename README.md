@@ -34,4 +34,4 @@ Design a highly available campus network utilizing Layer 2 and Layer 3 redundanc
 
 •	Secured the enterprise boundary by designing and deploying Extended Access Control Lists (ACLs) to filter TCP/IP packets
 
-o	Enforced strict corporate access policies by explicitly permitting the Marketing department (VLAN 10) to reach external internet targets while actively denying internet access to restricted subnets like Engineering (VLAN 20)
+•	Enforced strict corporate access policies by explicitly permitting the Marketing department (VLAN 10) to reach external internet targets while actively denying internet access to restricted subnets like Engineering (VLAN 20)
