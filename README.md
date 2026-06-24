@@ -1,13 +1,12 @@
 High Availability Enterprise Campus LAN
 Markel Crumpler
-
-Topology 
-Objective
+ 
+Objective:
 Design a highly available campus network utilizing Layer 2 and Layer 3 redundancy to eliminate single points of failure at the core and distribution layers.
 
 
 
-Technologies Deployed
+Technologies Deployed:
 
 •	VLANs and 802.1Q Trunking.
 •	Layer 2 EtherChannel utilizing LACP.
@@ -15,14 +14,16 @@ Technologies Deployed
 •	First Hop Redundancy Protocols (FHRP) using HSRP.
 •	Single-Area OSPFv2 for internal routing.
 •	Centralized DHCP with IP Helper Addresses.
-Configuration Insight
+
+Configuration Insight:
 
 •	To prevent network loops while maximizing bandwidth, I configured LACP between the Core and Access switches.
 
 •	HSRP on CORE-1 and CORE-2 to provide a virtual default gateway for VLANs 10 and 20.
 
 •	Established a virtual IP as the default gateway so that if Core-1 suffers a hardware failure, Core-2 will immediately resume routing duties without dropping client connections.
-Security and Access
+
+Security and Access:
 
 •	Mitigated VLAN hopping attacks by explicitly disabling Dynamic Trunking Protocol (DTP) using the switchport nonegotiate command and hardcoding all 802.1Q trunks
 
