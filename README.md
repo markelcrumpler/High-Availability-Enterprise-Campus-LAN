@@ -1,5 +1,6 @@
-High Availability Enterprise Campus LAN: 
 Markel Crumpler
+
+High Availability Enterprise Campus LAN
 
 **Objective:**
 Design a highly available campus network utilizing Layer 2 and Layer 3 redundancy to eliminate single points of failure at the core and distribution layers.
