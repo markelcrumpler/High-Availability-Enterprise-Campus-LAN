@@ -13,7 +13,7 @@ Design a highly available campus network utilizing Layer 2 and Layer 3 redundanc
 •	First Hop Redundancy Protocols (FHRP) using HSRP.
 •	Single-Area OSPFv2 for internal routing.
 •	Centralized DHCP with IP Helper Addresses.
-• DNS Server Inside ISP for Name Resolution
+• DNS Server for End Device Name Resolution
 
 **Configuration Insight:**
 
