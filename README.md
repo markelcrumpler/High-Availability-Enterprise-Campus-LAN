@@ -31,27 +31,3 @@ Security and Access
 •	Secured the enterprise boundary by designing and deploying Extended Access Control Lists (ACLs) to filter TCP/IP packets
 
 o	Enforced strict corporate access policies by explicitly permitting the Marketing department (VLAN 10) to reach external internet targets while actively denying internet access to restricted subnets like Engineering (VLAN 20)
-
-
-
-
-Verifications
-ISP
-
-Edge Router
-
-Core Layer 3 Switch 1
- 
-
-Distribution Switch
-End Device: PC B.2 ping to DNS Server IP 
-
-End Device: PC A.2 using DHCP to obtain IP Address + DNS Server Address
-
-
-
-
-
-
-
-<img width="468" height="602" alt="image" src="https://github.com/user-attachments/assets/f7d4d2ad-37c4-423c-b31c-bffddeca03f6" />
