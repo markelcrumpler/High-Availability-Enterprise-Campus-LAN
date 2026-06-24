@@ -30,6 +30,8 @@ Design a highly available campus network utilizing Layer 2 and Layer 3 redundanc
 
 •	Mitigated VLAN hopping attacks by explicitly disabling Dynamic Trunking Protocol (DTP) using the switchport nonegotiate command and hardcoding all 802.1Q trunks
 
+• Deployed Extended ACLs at the distribution layer to implement Zero-Trust principles
+
 •	Isolated network infrastructure traffic to a dedicated Management/Native network (VLAN 99) and enforced SSH-only remote access on VTY lines to prevent cleartext credential interception
 
 •	Secured the enterprise boundary by designing and deploying Extended Access Control Lists (ACLs) to filter TCP/IP packets
